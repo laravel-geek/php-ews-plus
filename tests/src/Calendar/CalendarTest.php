@@ -6,13 +6,13 @@ use garethp\ews\Test\BaseTestCase;
 
 class APITest extends BaseTestCase
 {
-    public function setUp()
+    public function setUp(): void
     {
         $client = $this->getClient();
         $client->deleteAllCalendarItems('2015-07-01 00:00', '2015-07-01 23:59');
     }
 
-    public function tearDown()
+    public function tearDown(): void
     {
         $client = $this->getClient();
         $client->deleteAllCalendarItems('2015-07-01 00:00', '2015-07-01 23:59');
