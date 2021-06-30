@@ -35,7 +35,7 @@ The `API::fromUsernameAndPassword` static constructor takes four parameters:
 * `$password`: The user's plain-text password.
 * `$options`: (optional): A group of options to be passed in
 * `$options['version']`: The version of the Exchange sever to connect to. Valid values can be found at `ExchangeWebServices::VERSION_*`. Defaults to Exchange 2010.
-* `$options['timezone']`: A timezone to use for operations. This isn't a PHP Timezone, but a Timezone ID as defined by Exchange. Sorry, I don't have a list for them yet
+* `$options['timezone']`: A timezone to use for operations. This isn't a PHP Timezone, but a Timezone ID as defined by Exchange. See https://github.com/Garethp/php-ews/wiki/Exchange-Timezones
 * `$options['httpClient']`: If you want to inject your own GuzzleClient for the requests
 * `$options['httpPlayback']`: See the Testing Section
 
