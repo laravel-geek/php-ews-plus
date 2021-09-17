@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.10.1 - 2021-09-17
+ * Merge in fixes for PHP8
+
 ## 0.10.0 - 2021-05-10
  * Upgrading the version of Guzzle that's used in HttpPlayback
  * Upgrading the version of PHPUnit used to allow for PHP 8
